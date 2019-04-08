@@ -6,7 +6,7 @@ Perl and wxPerl "Plug-in" scripts for the Gqrx Software Defined Radio(SDR) Packa
     Gqrx can output demodulated Raw Audio via UDP packets
     Gqrx distributes audio to Plug-in decoder applications like fldigi via Pulse Audio
 
-James M. Lynes Jr. May 4, 2016
+James M. Lynes Jr. May 4, 2016(Updated April 8, 2019)
 
 --------------------------------------------------------------------------------------------
 
@@ -16,6 +16,8 @@ lite.pl                     - Perl Scanner proof of concept - nonGUI
 wxgqrxLite.pl               - wxPerl Scanner proof of concept - GUI
 threadedgqrxLite.pl         - wxPerl Scanner - GUI - wxPerl with Perl Threads(good threads example)
 w1awCode.pl                 - wxPerl Scanner that push button tunes to ARRL code practice frequencies
+ListScanner.pl              - Perl Scanner - nonGUI, scans a list of frequencies rather than a
+                                  range of frequencies(ex: Sun N Fun Flyin/Airshow freqs)
 
 Raw Audio Plot Plug-ins(UDP)
 ----------------------------
